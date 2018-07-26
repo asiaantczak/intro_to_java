@@ -7,12 +7,23 @@ public class ControlFlow {
     Scanner input = new Scanner( System.in );
     // write a method that will check if a number is odd or even
     // (assume user only ever enters integers)
-    int input_num = input.nextInt();
-    if (input_num % 2 == 0) {
-      // print the answer to the console
-      System.out.println(input_num + " is even");
-    } else {
-      System.out.println(input_num + " is odd");
+    int input_num;
+
+    while(true) {
+      input_num = input.nextInt();
+
+      if (input_num % 2 == 0) {
+        // print the answer to the console
+        System.out.println(input_num + " is even");
+      } else {
+        System.out.println(input_num + " is odd");
+      }
+
+      if (input_num == 17) {
+        break;
+      }
     }
+
+
   }
 }
