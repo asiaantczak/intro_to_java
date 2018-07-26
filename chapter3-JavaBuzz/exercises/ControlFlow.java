@@ -10,9 +10,9 @@ public class ControlFlow {
     int input_num = input.nextInt();
     if (input_num % 2 == 0) {
       // print the answer to the console
-      System.out.println("even");
+      System.out.println(input_num + " is even");
     } else {
-      System.out.println("odd");
+      System.out.println(input_num + " is odd");
     }
   }
 }
