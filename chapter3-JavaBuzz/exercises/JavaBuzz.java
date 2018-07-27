@@ -8,9 +8,11 @@ public class JavaBuzz {
       } else if (i % 5 == 0) {
         // "Buzz" if divisible by 5
         System.out.println("Buzz");
-      } else {
+      } else if (i % 3 == 0) {
         // "Java" if divisible by 3
         System.out.println("Java");
+      } else {
+        System.out.println(i);
       }
     }
   }
