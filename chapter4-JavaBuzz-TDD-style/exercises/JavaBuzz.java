@@ -3,6 +3,8 @@ public class JavaBuzz {
   public String convert(int num) {
     if(num % 3 == 0) {
       return "Java";
+    } else if (num % 5 == 0) {
+      return "Buzz";
     }
     return String.valueOf(num);
   }
