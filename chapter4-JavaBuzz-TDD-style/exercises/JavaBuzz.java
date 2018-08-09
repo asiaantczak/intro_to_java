@@ -1,7 +1,10 @@
 public class JavaBuzz {
 
   public String convert(int num) {
-    if(num % 3 == 0) {
+    if (num % 15 == 0) {
+      return "JavaBuzz";
+    }
+    else if(num % 3 == 0) {
       return "Java";
     } else if (num % 5 == 0) {
       return "Buzz";

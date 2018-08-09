@@ -14,4 +14,10 @@ public class JavaBuzzTest {
     JavaBuzz javabuzz = new JavaBuzz();
     assertEquals(javabuzz.convert(5), "Buzz");
   }
+
+  @Test
+  public void returnJavaBuzzIfDivisibleByFiveAndThree() {
+    JavaBuzz javabuzz = new JavaBuzz();
+    assertEquals(javabuzz.convert(15), "JavaBuzz");
+  }
 }
